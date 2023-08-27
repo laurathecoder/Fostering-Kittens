@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Cat Fostering</title>
+    <style>
+      body {
+        background: radial-gradient(
+          circle at 12.8% 28%,
+          rgb(206, 155, 243) 0%,
+          rgb(142, 229, 247) 90%
+        );
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+      }
+      .container {
+        max-width: 500px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+        margin: 20px auto;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #141e31;
+        background: white;
+        font-size: 14px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+      button:hover {
+        background: #141e31;
+        color: white;
+        cursor: pointer;
+      }
+      footer {
+        text-align: center;
+        margin: 10px 0;
+      }
+      .themebutton {
+        font-size: 12px;
+        background: #141e31;
+        color: white;
+      }
+      .themebutton:hover {
+        color: #141e31;
+        background: white;
+      }
+      .kitten-intro-picture {
+        border-radius: 5px;
+        transition: all 150ms ease-in-out;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+      }
+      .kitten-intro-picture:hover {
+        transform: scale(1.2);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        margin: 15px;
+      }
+      .grid img {
+        width: 100%;
+        border-radius: 8px;
+      }
+      .grid img:hover {
+        transform: scale(1.2);
+      }
+      .dark {
+        background: linear-gradient(
+          109.6deg,
+          rgb(20, 30, 48) 11.2%,
+          rgb(36, 59, 85) 91.1%
+        );
+        color: white;
+      }
+      .dark .container {
+        background: rgb(16, 16, 24);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="themebutton">Dark Theme</button>
+    <div class="container">
+      <h1>Cat Fostering</h1>
+      <h2>Helping Cats and Kittens in need</h2>
+
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXDU-zTe2NnDtDvwMR76LxR-IlGnd8Vg8TSQ&usqp=CAU"
+        alt=""
+        class="kitten-intro-picture"
+      />
+      <div class="grid">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGUu4GOJrq23djlRntk7QKHgGNrBp31P-FNg&usqp=CAU"
+          alt=""
+        />
+        <img
+          src="data:image/jpeg;base64,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"
+          alt=""
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1gKi6_uIcN5ycipNq-S4IClFxNzNIANhMCg&usqp=CAU"
+          alt=""
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTefpKODXn_j1bB-wtaS8B398QUUWY7sCreAR0kncC6Z2GvXUA849phyaQTpd5bUcVGckI&usqp=CAU"
+          alt=""
+        />
+      </div>
+      <p>
+        Cat fostering is a beautiful act of compassion that nurtures both feline
+        lives and the human spirit. With each temporary home, you're not just
+        providing shelter, but hope and healing to a cat in need. Your selfless
+        love paves a path of second chances, showing us that a little kindness
+        can lead to boundless transformation.
+      </p>
+      <a
+        href="https://resources.bestfriends.org/article/cat-foster-care-manual"
+        target="_blank"
+      >
+        <button>Learn More</button>
+      </a>
+    </div>
+    <footer>Coded by Laura Thrupp</footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        // body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".themebutton");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
